@@ -1,4 +1,12 @@
-import { Expression, GetAccessorDeclaration, Node, PropertyDeclaration, PropertySignature, ReturnStatement, SetAccessorDeclaration } from "typescript";
+import {
+	Expression,
+	GetAccessorDeclaration,
+	Node,
+	PropertyDeclaration,
+	PropertySignature,
+	ReturnStatement,
+	SetAccessorDeclaration
+} from "typescript";
 import { ComponentMember } from "../../types/features/component-member";
 import { LitElementPropertyConfig } from "../../types/features/lit-element-property-config";
 import { getMemberVisibilityFromNode, getModifiersFromNode, getNodeSourceFileLang, hasModifier } from "../../util/ast-util";

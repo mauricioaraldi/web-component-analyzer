@@ -92,7 +92,7 @@ tsTest("LitElement: Discovers properties from 'static properties = {}'", t => {
 			},
 			{
 				kind: "property",
-				propName: "properties",
+				propName: "properties"
 			}
 		],
 		t,
